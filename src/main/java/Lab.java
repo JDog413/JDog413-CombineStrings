@@ -9,6 +9,7 @@ public class Lab {
      * @return the combination of strings a and b.
      */
     public String combine(String a, String b){
-        return "";
+        String c = a.concat(b); // I probably didn't need to do this. I just felt like making sure I still remembered how to use concat.
+        return c; // Just saying to return a + b would've worked here, I'm sure.
     }
 }
